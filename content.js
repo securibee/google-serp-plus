@@ -5,8 +5,11 @@ links.forEach(link => {
   const url = link.href;
   const node = doc.createElement("p");
   const textnode = doc.createTextNode(url);
+  link.closest('.g').classList.add('result-block')
   node.appendChild(textnode);
-  node.classList.add('full-link')
+  node.classList.add('full-link');
+  if (link.href.length > 85) node.classList.add('long-boy')
+  link.parentNode;
   link.after(node);
 })
 

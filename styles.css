@@ -1,5 +1,16 @@
+.result-block {
+  margin-bottom: 4rem !important;
+}
+
 .full-link {
   background: #fffbe5;
   color: #5c3c00;
   padding: .35rem;
+  position: absolute;
+  left: -.35rem;
+  bottom: -3.25rem;
+}
+
+.long-boy {
+  bottom: -4.25rem;
 }
