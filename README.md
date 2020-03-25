@@ -1,3 +1,5 @@
+# google-serp-plus 🐝
+
 An extension to improve interactions with Google's SERP
 
 1. Open the Extension Management page by navigating to chrome://extensions.
