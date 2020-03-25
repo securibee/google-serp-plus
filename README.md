@@ -10,6 +10,6 @@ Load Extension
 
 ![load extension](https://developer.chrome.com/static/images/get_started/load_extension.png)
 
-Ta-da! The extension has been successfully installed. Because no icons were included in the manifest, a generic toolbar icon will be created for the extension.
+Ta-da! The extension has been successfully installed.
 
 Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
