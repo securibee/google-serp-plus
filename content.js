@@ -8,7 +8,7 @@ links.forEach(link => {
   link.closest('.g').classList.add('result-block')
   node.appendChild(textnode);
   node.classList.add('full-link');
-  if (link.href.length > 85) node.classList.add('long-boy')
+  if (link.href.length > 91) node.classList.add('long-boy')
   link.parentNode;
   link.after(node);
 })
