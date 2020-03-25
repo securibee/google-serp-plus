@@ -13,6 +13,8 @@
     }
   ],
   "browser_action": {
+    "default_title": "Google SERP plus",
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "images/bee16.png",
       "32": "images/bee32.png",

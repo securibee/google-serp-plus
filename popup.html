@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 290px;
+      margin: 0;
+      padding: 1rem;
+    }
+    .group {
+      margin-bottom: .5rem;
+    }
+    .input-container {
+      border-radius: 3px;
+      box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset, rgba(15, 15, 15, 0.1) 0px 1px 1px inset;
+      background: rgba(242, 241, 238, 0.6);
+    }
+    .input {
+      border: none;
+      background: none;
+      width: 100%;
+      display: block;
+      padding: 1rem;
+    }
+    .button {
+      width: 48%;
+      border: 0;
+      padding: 1rem;
+      cursor: pointer;
+      background: #F6E05E;
+      border-radius: 3px;
+      box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset, rgba(15, 15, 15, 0.1) 0px 1px 2px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .button:hover {
+      background-color: #F6E05E;
+    }
+    .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="group">
+    <div class="input-container">
+      <input class="input" type="text" name="regex" placeholder="Regex e.g. (?:\?|&|;)([^=]+)=([^&|;]+)">
+    </div>
+  </div>
+  <div class="group flex">
+    <button class="button">Copy urls</button>
+    <button class="button">Open urls</button>
+  </div>
+</body>
+</html>
