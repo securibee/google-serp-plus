@@ -15,7 +15,7 @@ links.forEach(link => {
 
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    if( request.message === "clicked_browser_action" ) {
+    if( request.msg.action === "copy_urls" ) {
       const textarea = doc.createElement("textarea");
       const selection = doc.getSelection();
       textarea.textContent = links.map(link=>link.href).join("\n");
