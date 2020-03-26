@@ -15,15 +15,19 @@ links.forEach(link => {
 
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    if( request.msg.action === "copy_urls" ) {
-      const textarea = doc.createElement("textarea");
+    if (request.msg.action === 'copy_urls') {
+      const textarea = doc.createElement('textarea');
       const selection = doc.getSelection();
-      textarea.textContent = links.map(link=>link.href).join("\n");
+      textarea.textContent = links.map(link=>link.href).join('\n');
       doc.body.appendChild(textarea);
       selection.removeAllRanges();
       textarea.select();
-      doc.execCommand("copy");
+      doc.execCommand('copy');
       doc.body.removeChild(textarea);
+    } else if (request.msg.action === 'open_urls') {
+      links.forEach(link => {
+        window.open(link.href);
+      });
     }
   }
 );
