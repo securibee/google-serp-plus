@@ -5,6 +5,8 @@ An extension to improve interactions with Google's SERP.
 ## Features
 - Passively displays the full URL below each result.
 - Easily copy or open all of the search results with a click of a button.
+    
+![Example SERP](https://github.com/securibee/google-serp-plus/raw/master/images/google-serp-chrome-extension-example.png)
 
 ## Installation
 1. Open the Extension Management page by navigating to chrome://extensions.
