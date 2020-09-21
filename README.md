@@ -1,6 +1,9 @@
 # google-serp-plus 🐝
 
-An extension to improve interactions with Google's SERP
+An extension to improve interactions with Google's SERP. 
+
+- Passively displays the full URL below each result.
+- Easily copy or open all of the search results with a click of a button.
 
 1. Open the Extension Management page by navigating to chrome://extensions.
     - The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
@@ -11,5 +14,3 @@ Load Extension
 ![load extension](https://developer.chrome.com/static/images/get_started/load_extension.png)
 
 Ta-da! The extension has been successfully installed.
-
-Icons made by [Freepik](https://www.flaticon.com/authors/freepik "Freepik") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
