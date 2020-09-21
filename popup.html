@@ -43,11 +43,17 @@
       display: flex;
       justify-content: space-between;
     }
+    #copy,
+    #open,
+    #none {
+      display: none;
+    }
   </style>
   <script src="popup.js"></script>
 </head>
 <body>
   <div class="group flex">
+    <div id="none">Only works on google.com</div>
     <button id="copy" class="button">Copy urls</button>
     <button id="open" class="button">Open urls</button>
   </div>
